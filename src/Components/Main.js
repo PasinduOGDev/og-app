@@ -1,12 +1,3 @@
-// const name = 'Pasindu Madhuwantha'
-// const position = 'Web Developer'
-
-// const myObj = {
-//     name: `${name}`,
-//     position: `${position}`,
-//     city: `Kalutara`
-// };
-
 function Main({children,name,city,position}) {
 
     return(
