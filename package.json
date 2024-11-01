@@ -34,5 +34,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<<<<<<< HEAD\r # og-app\r This is my first testing **React** application for learn about **React Framework**. You can fork this repository and keeping update that forked repository.\r =======\r # Getting Started with Create React App",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
