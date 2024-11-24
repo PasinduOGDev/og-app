@@ -1,5 +1,12 @@
 import './App.css';
+import Button from './Components/Button';
 import Main from './Components/Main';
+
+const user = {
+  name: 'Pramuditha',
+  city: 'Horana',
+  position: 'Frontend Dev'
+}
 
 function App() {
   return (
@@ -7,12 +14,9 @@ function App() {
       <div>
         <h1>Pasindu Madhuwantha</h1>
       </div>
-      <Main name='Ashan' city='Moratuwa' position='Frontend Developer'>
-        <h5>Pasindu OG Dev</h5>
-        <p>Full Stack Developer</p>
-      </Main>
-      <Main name='Pasindu' city='Matugama' position='Web Developer' />
-      <Main name='Hirusha' city='Mawanella' position='QA and Testing' />
+      <Main name='Ashan' city='Moratuwa' position='Frontend Developer' />
+      <Main name={user.name} city={user.city} position={user.position} />
+      <Button />
     </>
   );
 }

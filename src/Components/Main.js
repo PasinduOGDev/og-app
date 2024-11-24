@@ -1,4 +1,4 @@
-function Main({children,name,city,position}) {
+function Main({name,city,position}) {
 
     return(
         <div>This is the Main Component
@@ -7,7 +7,6 @@ function Main({children,name,city,position}) {
                 <li>{position}</li>
                 <li>{city}</li>
             </ul>
-            {children}
         </div>
     );
 }
